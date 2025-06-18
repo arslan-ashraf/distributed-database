@@ -10,6 +10,7 @@
 # curl localhost:4000 -X POST -H 'Content-Type: application/json' -d '{ "request_type": "READ", "key": "key_1" }'
 
 
+
 curl localhost:4000 -X POST -H "Content-Type: application/json" -d '{ "request_type": "WRITE", "key": "key_1", "value": "value_1" }'
 curl localhost:4000 -X POST -H "Content-Type: application/json" -d '{ "request_type": "WRITE", "key": "key_2", "value": "value_2" }'
 curl localhost:4000 -X POST -H "Content-Type: application/json" -d '{ "request_type": "WRITE", "key": "key_3", "value": "value_3" }'
