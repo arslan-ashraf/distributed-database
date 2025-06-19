@@ -301,4 +301,9 @@ verion_number 10 bytes | live_status 10 bytes | key 20 bytes | value 49 bytes | 
 }
 
 
-module.exports = { write_to_hash_table, initialize_hash_table_file }
+module.exports = { 
+	write_to_hash_table, 
+	parse_line_of_log, 
+	assemble_line_to_write, 
+	initialize_hash_table_file 
+}
